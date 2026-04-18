@@ -7,17 +7,11 @@ var typewriter = new Typewriter(app, {
 });
 
 typewriter
-    // .typeString('A simple yet powerful native javascript')
-    // .pauseFor(300)
-    // .deleteChars(10)
-    // .typeString('<strong>JS</strong> plugin for a cool typewriter effect and ')
-    // .typeString('<strong>only <span style="color: #27ae60;">5kb</span> Gzipped!</strong>')
-    // .pauseFor(1000)
-    // .start();
+
     .typeString('<strong>Jessi_McKissick@github:~$</strong> info<br>')
-    .typeString('<em>Software Developer, (Future)Security Analyst</em><br>')
+    .typeString('<em>Software Developer, Security researcher, Technologist</em><br>')
     .typeString('<br>')
-    .typeString("I'm currently a college student Majoring in cybersecurity and working odjobs as needed.<br>")
+    .typeString("College student Majoring in cybersecurity, working for Vulpisoft LLC as a full stack engineer.<br>")
     .typeString("===============================<br>")
     .typeString("<strong>Jessi_McKissick@github:~$</strong> ")
     .pauseFor('600')
@@ -25,11 +19,11 @@ typewriter
     .pauseFor('200')
     .typeString('<br>')
     .typeString('<br>')
-    .typeString('<strong>SolomonJS:</strong> Experimental Javascript DOM framework allowing dynamic generation and manipulation of dom nodes on static hosts.<br>')
+    .typeString('<strong>SolomonJS:</strong> Experimental Javascript DOM framework allowing dynamic generation and manipulation of dom nodes on static hosts. Currently undergoing a massive rewrite.<br>')
     .typeString('<strong>Sucasa:</strong> Simple keylogger script in python that logs keystrokes to a text file or server.<br>')
     .typeString('<strong>winScalp:</strong> Currently experimental (and private repository) ducky-injectable script to clone a target devices data then erase all of the cloned content from said device.<br>')
-    .typeString('<strong>G20 Webapp:</strong> A web application developed for a gaming group that automates calculation of various data.<br>')
-    .typeString('<strong>This page!:</strong> A very simple web application using <a href="https://github.com/tameemsafi/typewriterjs?tab=readme-ov-file" target="blank">typewriterJS v2</a><br>')
+    .typeString('<strong>G20 Webapp:</strong> A web application developed for a gaming group that automates calculation of various data to save time and ensure accuracy across user inputs.<br>')
+    .typeString('<strong>This page!:</strong> A very simple web application using <a href="https://github.com/tameemsafi/typewriterjs?tab=readme-ov-file" target="blank">typewriterJS v2</a> to make a hyper simple page more dynamic and alive.<br>')
     .typeString("===============================<br>")
     .typeString("<strong>Jessi_McKissick@github:~$</strong> ")
     .pauseFor('600')
@@ -46,7 +40,14 @@ typewriter
     .pauseFor('200')
     .typeString('<br>')
     .typeString('<br>')
-    .typeString('<strong>Nanodegree in front-end web development:</strong> Google Scholarship program, Udacity.')
-
-
+    .typeString('<strong>Nanodegree in front-end web development:</strong> Google Scholarship program, Udacity.<br>')
+    .pauseFor('600')
+    .typeString('Previous employers')
+    .pauseFor('600')
+    .typeString('<br>')
+    .typeString('<br>')
+    .typeString('<strong>Vuee.io:</strong> Writing complex Vue components for customer facing modular development CRM.')
+    .typeString('<br>')
+    .typeString('<strong>Open Learning Exchange:</strong> Development intern working on the OLE planet software currently being deployed in guatemala.')
+    .typeString('<br>')
     .start()
