@@ -221,13 +221,17 @@ height: 100%;
 
 #tech-skill-name {
     height: 100%;
+    overflow-x: auto;
+        white-space: nowrap;
 }
 
 #tech-skill-rating {
     text-align: center;
     height: 100%;
+
 }
 
 #tech-skill-rating hr {
     width: 20%;
+    
 }
