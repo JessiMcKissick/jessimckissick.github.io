@@ -1,16 +1,35 @@
+/* Global zone */
+body{
+    background-color: rgb(0, 0, 59);
+    padding: 0px;
+    margin: 0px;
+    color: white;
+    overflow-x: hidden;
+}
+
+a{
+    
+}
+
+
 /* header zone */
 #header{
+    color: white;
     display: grid;
-    grid-template-columns: 20vw 80vw;
+    margin: 0px;
+    grid-template-columns: 11vw 59vw 30vw;
     grid-template-rows: 7.5vh 5vh 2.5vh;
-    margin-bottom: 10vh;
-    background-color: rgba(0, 0, 255, 0.429);
+    margin-bottom: 3vh;
+    background-color: rgb(35, 6, 139);
+    /* height: 17vh; */
+    border-bottom: 2vh solid rgba(0, 0, 0, 0.336);
 }
 
 #portrait{
     grid-column: 1;
     grid-row-start: 1;
     grid-row-end: 2;
+    height: 15vh;
 }
 
 #title{
@@ -18,18 +37,68 @@
     grid-row: 1;
 }
 
+#title i{
+    color:rgba(134, 134, 134, 0.836);
+    font-size: 0.4em;
+}
+
 #subtitle{
     grid-column: 2;
     grid-row: 2;
 }
 
-#sub-sub{
+#color-bar-container{
+    grid-column: 3;
+    grid-row-start: 1;
+    grid-row-end:4;
+    height: 100%;
+    display: flex;
+    align-items: right;
+    text-align: right;
+}
+#bar1{
+    /* background: linear-gradient(135deg, rgba(0, 0, 255, 0), rgb(168, 168, 168)); */
+    background-color: rgb(168, 168, 168);
+    clip-path: polygon(0 100%, 100% 0, 100% 100%, 0 100%);    
+    height: 100%;
+    width: 20%;
+    margin-left: auto;
+}
+
+#bar2{
+    background-color: rgb(0, 0, 0);
+    height: 100%;
+    width: 8%
+}
+
+#bar3{
+    background-color: rgb(45, 25, 228);
+    height: 100%;
+    width: 10%
+}
+
+/* #sub-sub{
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row: 3;
+    padding: 2px;
+} */
+/* Content zone */
+
+#content{
+    padding: 0px 10px 0px 10px;
+    display: grid;
+    grid-template-columns: 70vw 30vw;
 }
 
 /* Cert zone */
+
+#certs{
+    background-color: rgba(0, 0, 0, 0.479);
+    padding: 3px 20px 3px 20px;
+    border-radius: 10px;
+    margin: 5px 0px 5px 0px;
+}
 
 .certificate{
     display: grid;
@@ -65,16 +134,100 @@
     grid-column: 1;
     grid-row-start: 1;
     grid-row-end: 2;
+    background-color: white;
+    border-radius: 10px;
+    padding-left: 5px;
+    padding-right: 2px;
 }
 
 .credential_title{
     grid-column: 2;
     grid-row: 1;
-    padding-left: 5px;
+    padding-left: 10px;
+    margin-top:0px;
 }
 
 .credential_info{
-    padding-left: 5px;
+    margin-top: 0px;
+    padding-left: 10px;
     grid-column: 2;
     grid-row: 2;
+}
+
+
+/* Projects zone */
+
+#projects{
+    /* padding-left: 10px; */
+    background-color: rgba(0, 0, 0, 0.479);
+    padding: 3px 20px 3px 20px;
+    border-radius: 10px;
+    margin: 5px 0px 5px 0px;
+}
+
+
+/* Contact zone */
+#contact{
+    background-color: rgba(0, 0, 0, 0.479);
+    padding: 3px 20px 3px 20px;
+    border-radius: 10px;
+    margin: 5px 0px 5px 0px;
+}
+
+/* employment zone */
+
+#employment{
+    background-color: rgba(0, 0, 0, 0.479);
+    padding: 3px 20px 3px 20px;
+    border-radius: 10px;
+    margin: 5px 0px 5px 0px;
+}
+
+#right-content{
+    background-color: rgba(0, 0, 0, 0.479);
+    padding: 3px 20px 3px 20px;
+    border-radius: 10px;
+    margin: 5px 0px 5px 10px;
+}
+
+#skillbox{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 10px 20px;
+    align-items: center;
+    line-height: 1.5em;
+}
+
+#skill-name{
+height:100%;
+}
+
+#skill-rating{
+    text-align: center;
+height: 100%;
+}
+
+#skill-rating hr{
+    width: 20%;
+}
+
+#tech-skill-box{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 10px 20px;
+    align-items: center;
+    line-height: 1.5em;
+}
+
+#tech-skill-name {
+    height: 100%;
+}
+
+#tech-skill-rating {
+    text-align: center;
+    height: 100%;
+}
+
+#tech-skill-rating hr {
+    width: 20%;
 }
