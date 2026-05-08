@@ -106,6 +106,10 @@ a{
     grid-template-columns: 10vw 90vw;
     grid-template-rows: 2.5vw 12.5vw;
 }
+#certs h2{
+    text-align: center;
+    padding-bottom: 1em;
+}
 .cert{
     width: 10vw;
     grid-column: 1;
@@ -115,12 +119,13 @@ a{
 .cert_title{
     grid-column: 2;
     grid-row: 1;
-    padding-left: 5px;
+    padding-left: 1.2em;
 }
 .cert_info{
-    padding-left: 5px;
+    padding-left: 1.2em;
     grid-column: 2;
     grid-row: 2;
+    width: 60%;
 }
 
 /* ISC2 card */
@@ -144,15 +149,16 @@ a{
 .credential_title{
     grid-column: 2;
     grid-row: 1;
-    padding-left: 10px;
+    padding-left: 1.2em;
     margin-top:0px;
 }
 
 .credential_info{
     margin-top: 0px;
-    padding-left: 10px;
+    padding-left: 1.2em;
     grid-column: 2;
     grid-row: 2;
+        width: 60%;
 }
 
 
@@ -164,6 +170,11 @@ a{
     padding: 3px 20px 3px 20px;
     border-radius: 10px;
     margin: 5px 0px 5px 0px;
+    /* text-align: center; */
+}
+
+#projects h2{
+    text-align: center;
 }
 
 
@@ -175,6 +186,10 @@ a{
     margin: 5px 0px 5px 0px;
 }
 
+#contact h2{
+    text-align: center;
+}
+
 /* employment zone */
 
 #employment{
@@ -182,6 +197,10 @@ a{
     padding: 3px 20px 3px 20px;
     border-radius: 10px;
     margin: 5px 0px 5px 0px;
+}
+
+#employment h2{
+    text-align: center;
 }
 
 #right-content{
