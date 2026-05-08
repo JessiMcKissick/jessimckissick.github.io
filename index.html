@@ -4,13 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="app.css">
 </head>
-<body id="app">
-    <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="cd6ad1ee-c9b5-41dc-bf05-90a711256782" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-    <div id="typewriter">
-        <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
-        <script src="./app.js" defer></script>
+<body>
+    <div id="header">
+        <img id="portrait" alt="Jessi McKissick">
+        <h1 id="title">Jessi McKissick</h3>
+        <h3 id="subtitle">Software Developer, Security researcher, Technologist</h3>
+        <h4 id="sub-sub">College student Majoring in cybersecurity, working for Vulpisoft LLC as a full stack engineer.</h4>
     </div>
+    <div id="content">
+        <div id="projects">
+            <h2>My projects</h2>
+                <p><b>SolomonJS:</b> Experimental Javascript DOM framework allowing dynamic generation and manipulation of dom nodes on static hosts. Currently undergoing a massive rewrite.</p>
+                <p><b>Sucasa:</b> Simple keylogger script in python that logs keystrokes to a text file or server.</p>
+                <p><b>winScalp:</b> Currently experimental (and private repository) ducky-injectable script to clone a target devices data then erase all of the cloned content from said device.</p>
+                <p><b>G20 Webapp:</b> A web application developed for a gaming group that automates calculation of various data to save time and ensure accuracy across user inputs.</p>
+                <p><b>This page!:</b> A very simple web application using typewriterJS v2 to make a hyper simple page more dynamic and alive.</p>
+        </div>
+        <div id="contact">
+            <h2>Contact information</h2>
+            <p><b>Email:</b> jams895@proton.me</p>
+        </div>
+        <div id="certs">
+            <h2>Certifications and memberships</h2>
+            <div id="isc2">
+                <img src="./assets/isc2-candidate.png" class="badge">
+                <h3 class="credential_title">ISC2 candidate</h3>
+                <p class="credential_info">blah blah</p>
+            </div>
+            <div class="certificate">
+                <img class="cert">
+                <h3 class="cert_title"> Nanodegree in front-end web development, google scholarship </h3>
+                <p class="cert_info">blah blah</p>
+            </div>
+        <div id="employment">
+            <h2>Previous employers</h2>
+            <p><b>Vuee.io</b> Writing complex Vue components for customer facing modular development CRM.</p>
+            <p><b>Open Learning Exchange</b> Development intern working on the OLE planet software currently being deployed in guatemala.</p>
+        </div>
+    </div>
+    <div id="footer">
 
+    </div>
 </body>
 </html>
