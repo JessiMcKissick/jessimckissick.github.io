@@ -150,6 +150,12 @@ p{
     grid-template-rows: 2.5vw 12.5vw;
 }
 
+#issa{
+    display: grid;
+    grid-template-columns: 10vw 90vw;
+    grid-template-rows: 2.5vw 12.5vw;
+}
+
 .badge{
     width: 10vw;
     grid-column: 1;
