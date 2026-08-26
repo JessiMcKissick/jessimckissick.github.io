@@ -220,6 +220,13 @@ p{
     margin: 5px 0px 5px 0px;
 }
 
+#freelance{
+    background-color: rgba(0, 0, 0, 0.479);
+    padding: 3px 20px 3px 20px;
+    border-radius: 10px;
+    margin: 5px 0px 5px 0px;
+}
+
 #employment h2{
     text-align: center;
 }
@@ -276,3 +283,10 @@ height: 100%;
     width: 20%;
     
 }
+
+#nsls{
+    display: grid;
+    grid-template-columns: 10vw 90vw;
+    grid-template-rows: 2.5vw 12.5vw;
+}
+
